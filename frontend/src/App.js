@@ -6,7 +6,7 @@ import Sidebar from "./components/Sidebar";
 function App() {
   let login = false;
   return login == true ? (
-    <div className="h-screen w-screen">
+    <div className="h-screen w-screen bg-[#EEF4FB] ">
       <Login />
     </div>) : (
     <div className="h-screen w-screen">
